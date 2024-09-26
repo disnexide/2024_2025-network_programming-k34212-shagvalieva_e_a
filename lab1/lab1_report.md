@@ -42,4 +42,10 @@ Date of finished:
 Через программу WinBox было выполнено подключение через выданный ранее ip-адрес.
 ![image](https://github.com/user-attachments/assets/ca0b326d-6054-4521-be31-9d1176e25e81)
 
+С помощью интерфейса настраиваем wireguard. 
+![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)
+
+![image](https://github.com/user-attachments/assets/b8e47cd4-b39d-4147-94da-e5162ec03b31)
+
+
 
