@@ -36,4 +36,10 @@ Date of finished:
 Затем с помощью VirtualBox была создана виртуальная машина RouterOS.
 ![image](https://github.com/user-attachments/assets/696f53ab-8a22-4172-94eb-7f66d9246d6e)
 
+После настройки виртуального жесткого диска и нужных параметров соединения в настройках, виртуальная машина была запущена, на экран выведен выданный ей ip-адрес.
+![image](https://github.com/user-attachments/assets/3fe93a86-fbcc-46c3-9b67-93c0bedd4652)
+
+Через программу WinBox было выполнено подключение через выданный ранее ip-адрес.
 ![image](https://github.com/user-attachments/assets/ca0b326d-6054-4521-be31-9d1176e25e81)
+
+
