@@ -44,6 +44,7 @@ Date of finished:
 
 С помощью интерфейса настраиваем wireguard. 
 ![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)
+![image](https://github.com/user-attachments/assets/19947a0d-49c4-4e00-81a0-489f5aaa5769)
 
 ![image](https://github.com/user-attachments/assets/f6ffea5c-d098-463a-9ed0-35e53601373e)
 
