@@ -42,21 +42,35 @@ Date of finished:
 Через программу WinBox было выполнено подключение через выданный ранее ip-адрес.
 ![image](https://github.com/user-attachments/assets/ca0b326d-6054-4521-be31-9d1176e25e81)
 
-С помощью интерфейса настраиваем wireguard. 
+С помощью интерфейса было настроено покдлючение wireguard - выбирано название и порт, ключи сгенерировалось автоматически.
 ![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)
+
+Во вкладке "" был добавлен адрес, который будет присвоен клиенту.
 ![image](https://github.com/user-attachments/assets/19947a0d-49c4-4e00-81a0-489f5aaa5769)
 
-
-
+Также был настроен peer - в качестве ключа вставлен только что сгенерированный (при первоначальной настройке).
 ![image](https://github.com/user-attachments/assets/e21e31fa-9ba4-4401-9ebf-93ab40399119)
+
+После этого на виртуальной машине Ubuntu были сгенерированы ключи.
 ![image](https://github.com/user-attachments/assets/f6ffea5c-d098-463a-9ed0-35e53601373e)
 
+Затем приватный ключ интерфейса и публичный ключ пира были вставлены в конфигурационный файл wireguard.
 ![image](https://github.com/user-attachments/assets/09a8a8eb-c1a4-4bb3-ac24-371524087edd)
 
+После этих шагов подключение должно заработать. Проверка:
+
+1) Доступ ко внешней сети с ВМ Ubuntu
 ![image](https://github.com/user-attachments/assets/c835b360-c5a8-4137-b46c-7b30f3ce4d3d)
+
+2) доступ ко внешней сети RouterOS
 ![image](https://github.com/user-attachments/assets/e0c901f4-0196-4b99-805a-b0bb6f4f7cba)
+
+3) Настроенная в работе связь между сервером и клиентом
 ![image](https://github.com/user-attachments/assets/9e6b8760-9701-4032-9c18-ecc991a1c72f)
 
+
+## Выводы
+В ходе лабораторной работы были подняты две виртуальные машины на локальном компьютере и в облаке и настроено VPN соединение wireguard. Сложности в основном возникли в первой части работы - настройке вм на облаке, все остальное делалось с помощью понятных инструкций и документаций.
 
 
 
