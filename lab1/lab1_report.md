@@ -71,12 +71,15 @@ Date of finished:
 После этих шагов подключение должно заработать. Проверка:
 
 1) Доступ ко внешней сети с ВМ Ubuntu
+   
 ![image](https://github.com/user-attachments/assets/c835b360-c5a8-4137-b46c-7b30f3ce4d3d)
 
 2) доступ ко внешней сети RouterOS
+   
 ![image](https://github.com/user-attachments/assets/e0c901f4-0196-4b99-805a-b0bb6f4f7cba)
 
 3) Настроенная в работе связь между сервером и клиентом
+   
 ![image](https://github.com/user-attachments/assets/9e6b8760-9701-4032-9c18-ecc991a1c72f)
 
 
