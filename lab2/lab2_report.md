@@ -12,7 +12,7 @@ Author: Shagvalieva Ekaterina Albertovna
 
 Lab: Lab2
 
-Date of create: 
+Date of create: 16-Oct 2024
 
 Date of finished: 
 
@@ -23,3 +23,6 @@ Date of finished:
 
 
 ## Ход работы
+
+
+![image](https://github.com/user-attachments/assets/df7e0b60-5a64-4a51-9fd5-43a33ded6cfc)
