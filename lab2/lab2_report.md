@@ -25,6 +25,6 @@ Date of finished:
 ## Ход работы
 
 
-![image](https://github.com/user-attachments/assets/df7e0b60-5a64-4a51-9fd5-43a33ded6cfc)
+
 ![image](https://github.com/user-attachments/assets/c34b8f5f-022f-460c-a65b-364a71c8b471)
 
