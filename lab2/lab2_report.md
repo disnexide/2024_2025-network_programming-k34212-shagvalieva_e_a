@@ -34,15 +34,14 @@ Date of finished:
 2. Организация второго OVPN-клиента на втором CHR
    Настроен второй OpenVPN клиент на CHR2 для обеспечения связи через VPN туннель. Использовались стандартные команды для настройки интерфейса и подключения к серверу. 
 
-
-
-
 Файл конфигурации для соединения на интерфейсе:
 
 ![image](https://github.com/user-attachments/assets/e26415f0-4b52-4e9d-a354-ef10135af657)
 
 Проверка локальной связности:
+
 ![image](https://github.com/user-attachments/assets/701b2ae3-edbc-4d88-a05d-e46a4ec5a014)
+
 ![image](https://github.com/user-attachments/assets/69accc23-a7f7-4a21-b2d6-39cfa6ce0e85)
 
 3. Создание файла Inventory для Ansible
@@ -65,6 +64,51 @@ all:
       ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
 ```
 
+4. Настройка логина и пароля на обоих CHR с помощью Ansible
+   Для изменения пользовательских данных на обоих CHR был написан playbook Ansible:
+
+```
+- hosts: all
+  tasks:
+    - name: Change user password on RouterOS (CHR)
+      community.routeros.command:
+        commands:
+          - /user set name=admin password=newpassword
+```
+
+5. Настройка NTP-клиента
+   Был настроен NTP-клиент на обоих CHR, чтобы обеспечить синхронизацию времени с внешними серверами времени. Использовался Ansible playbook для внесения изменений на устройства:
+
+```
+- hosts: all
+  tasks:
+    - name: Set NTP client
+      community.routeros.command:
+        commands:
+          - /system ntp client set enabled=yes primary-ntp=91.206.8.50 secondary-ntp=193.204.114.232
+```
+
+6. Настройка OSPF с указанием Router ID
+   OSPF (Open Shortest Path First) был настроен для обоих роутеров, с уникальными Router ID для каждого устройства:
+   CHR1: Router ID = 1.1.1.1
+   CHR2: Router ID = 2.2.2.2
+
+   Были добавлены сети для анонсирования через OSPF, и OSPF был активирован на интерфейсах.
+
+```
+- hosts: all
+  tasks:
+    - name: Set OSPF Router ID
+      community.routeros.command:
+        commands:
+          - /routing ospf instance set default router-id=1.1.1.1
+          - /routing ospf network add network=192.168.0.0/24 area=backbone
+```
+
+7. Сбор данных по топологии OSPF
+   Используя модуль routeros_facts и routeros_command, были собраны данные о OSPF топологии, а также полная конфигурация устройства.
+
+   В конечном итоге плейбук выглядит следующим образом:
 ![image](https://github.com/user-attachments/assets/956699b2-780b-495f-82a2-77d9b4f714de)
 
 
