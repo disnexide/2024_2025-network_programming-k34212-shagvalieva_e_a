@@ -32,15 +32,21 @@ Date of finished:
 ![image](https://github.com/user-attachments/assets/e997fc82-173e-4e4f-8161-98fb2ab0b3fb)
 
 2. Организация второго OVPN-клиента на втором CHR
-   Настроен второй OpenVPN клиент на CHR2 для обеспечения связи через VPN туннель. Использовались стандартные команды для настройки интерфейса и подключения к серверу. Файл конфигурации для соединения на интерфейсе:
+   Настроен второй OpenVPN клиент на CHR2 для обеспечения связи через VPN туннель. Использовались стандартные команды для настройки интерфейса и подключения к серверу. 
 
 
+
+
+Файл конфигурации для соединения на интерфейсе:
+
+![image](https://github.com/user-attachments/assets/e26415f0-4b52-4e9d-a354-ef10135af657)
+
+Проверка локальной связности:
 ![image](https://github.com/user-attachments/assets/701b2ae3-edbc-4d88-a05d-e46a4ec5a014)
 ![image](https://github.com/user-attachments/assets/69accc23-a7f7-4a21-b2d6-39cfa6ce0e85)
 
-![image](https://github.com/user-attachments/assets/356f13fe-3f2a-4f72-a6fa-1361e00ed226)
-![image](https://github.com/user-attachments/assets/e26415f0-4b52-4e9d-a354-ef10135af657)
-
+3. Создание файла Inventory для Ansible
+   Был составлен файл inventory.yml, который включает два устройства с соответствующими IP-адресами и данными для подключения:
 
 ![image](https://github.com/user-attachments/assets/956699b2-780b-495f-82a2-77d9b4f714de)
 
