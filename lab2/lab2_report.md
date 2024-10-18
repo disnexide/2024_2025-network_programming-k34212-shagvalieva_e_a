@@ -38,11 +38,6 @@ Date of finished:
 
 ![image](https://github.com/user-attachments/assets/e26415f0-4b52-4e9d-a354-ef10135af657)
 
-Проверка локальной связности:
-
-![image](https://github.com/user-attachments/assets/701b2ae3-edbc-4d88-a05d-e46a4ec5a014)
-
-![image](https://github.com/user-attachments/assets/69accc23-a7f7-4a21-b2d6-39cfa6ce0e85)
 
 3. Создание файла Inventory для Ansible
    Был составлен файл inventory.yml, который включает два устройства с соответствующими IP-адресами и данными для подключения:
@@ -109,9 +104,21 @@ all:
    Используя модуль routeros_facts и routeros_command, были собраны данные о OSPF топологии, а также полная конфигурация устройства.
 
    В конечном итоге плейбук выглядит следующим образом:
+   
 ![image](https://github.com/user-attachments/assets/956699b2-780b-495f-82a2-77d9b4f714de)
 
+Проверка локальной связности:
 
+![image](https://github.com/user-attachments/assets/701b2ae3-edbc-4d88-a05d-e46a4ec5a014)
+
+![image](https://github.com/user-attachments/assets/69accc23-a7f7-4a21-b2d6-39cfa6ce0e85)
+
+Схема связи:
+
+
+
+## Вывод: 
+Лабораторная работа продемонстрировала возможность автоматизации конфигурации сетевых устройств с использованием Ansible. Все поставленные задачи выполнены, включая настройку логина/пароля, синхронизацию времени через NTP, настройку OSPF и сбор данных о топологии сети.
 
 
 
