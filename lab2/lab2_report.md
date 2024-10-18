@@ -48,6 +48,23 @@ Date of finished:
 3. Создание файла Inventory для Ansible
    Был составлен файл inventory.yml, который включает два устройства с соответствующими IP-адресами и данными для подключения:
 
+```
+all:
+  hosts:
+    CHR1:
+      ansible_host: 192.168.0.123
+      ansible_user: admin
+      ansible_password: 1111
+      ansible_connection: ssh
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+    CHR2:
+      ansible_host: 192.168.0.129
+      ansible_user: admin
+      ansible_password: 222
+      ansible_connection: ssh
+      ansible_ssh_common_args: '-o StrictHostKeyChecking=no'
+```
+
 ![image](https://github.com/user-attachments/assets/956699b2-780b-495f-82a2-77d9b4f714de)
 
 
