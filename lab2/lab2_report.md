@@ -115,6 +115,7 @@ all:
 
 Схема связи:
 
+![image](https://github.com/user-attachments/assets/7fa8aded-4972-4b34-8819-ffba54302822)
 
 
 ## Вывод: 
