@@ -37,6 +37,8 @@ Date of finished:
 
 ![image](https://github.com/user-attachments/assets/184cc4b9-6463-4ce3-a2bc-ba4f0dce20b9)
 
+И завершим настройку запуском.
+
 ![image](https://github.com/user-attachments/assets/16338a1d-3ab5-4da4-9622-3ccd68268712)
 
 
