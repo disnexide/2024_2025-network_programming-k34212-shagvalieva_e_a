@@ -25,9 +25,12 @@ Date of finished:
 ## Ход работы
 
 
+Для начала на новую виртуальную машину был установлен Netbox.
+
 ![image](https://github.com/user-attachments/assets/a3edfaf2-fb4a-43b5-bc88-6527e35fdb76)
 
 После успешного создания и активации виртуального окружения, а также установки всех зависимостей Netbox, можно продолжить с настройкой и запуском Netbox.
+Создадим БД и пользователя в ней.
 
 ![image](https://github.com/user-attachments/assets/b545cae0-8361-465e-93e2-cf4f579dba9f)
 
