@@ -41,4 +41,21 @@ Date of finished:
 
 ![image](https://github.com/user-attachments/assets/16338a1d-3ab5-4da4-9622-3ccd68268712)
 
+Теперь появилась возможность зайти в Netbox. Там добавляем наши устройства.
 
+![image](https://github.com/user-attachments/assets/d6888e03-19c1-43ac-b4cb-5281a8b9ebd6)
+
+Затем 
+
+```
+plugin: netbox.netbox.nb_inventory
+api_endpoint: http://130.193.42.42:8080/
+token: "токен"
+validate_certs: False
+config_context: False
+interfaces: True
+```
+
+```
+ansible-inventory -v --list -y -i netbox_inventory.yml > nb_inventory.yml
+```
