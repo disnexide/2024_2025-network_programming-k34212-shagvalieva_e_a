@@ -24,4 +24,9 @@ Date of finished:
 
 ## Ход работы
 
+Для выполнения работы поднимем машину "P4 Tutorial 2018-06-01" через VirtualBox.
+
+![Снимок экрана 2024-12-07 225627](https://github.com/user-attachments/assets/c3c7bc50-834d-4692-98e1-a92477c3e89b)
+
+
 ```
