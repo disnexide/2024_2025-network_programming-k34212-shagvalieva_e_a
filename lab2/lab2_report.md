@@ -29,14 +29,14 @@ Date of finished: 25-Oct 2024
    CHR1: 192.168.0.123
    CHR2: 192.168.0.129
 
-![image](https://github.com/user-attachments/assets/e997fc82-173e-4e4f-8161-98fb2ab0b3fb)
+[![image](https://github.com/user-attachments/assets/e997fc82-173e-4e4f-8161-98fb2ab0b3fb)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab2/screenshots/1.png)
 
 2. Организация второго OVPN-клиента на втором CHR
    Настроен второй OpenVPN клиент на CHR2 для обеспечения связи через VPN туннель. Использовались стандартные команды для настройки интерфейса и подключения к серверу. 
 
 Файл конфигурации для соединения на интерфейсе:
 
-![image](https://github.com/user-attachments/assets/e26415f0-4b52-4e9d-a354-ef10135af657)
+[![image](https://github.com/user-attachments/assets/e26415f0-4b52-4e9d-a354-ef10135af657)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab2/screenshots/2.png)
 
 
 3. Создание файла Inventory для Ansible
@@ -105,17 +105,17 @@ all:
 
    В конечном итоге плейбук выглядит следующим образом:
    
-![image](https://github.com/user-attachments/assets/956699b2-780b-495f-82a2-77d9b4f714de)
+[![image](https://github.com/user-attachments/assets/956699b2-780b-495f-82a2-77d9b4f714de)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab2/screenshots/3.png)
 
 Проверка локальной связности:
 
-![image](https://github.com/user-attachments/assets/701b2ae3-edbc-4d88-a05d-e46a4ec5a014)
+[![image](https://github.com/user-attachments/assets/701b2ae3-edbc-4d88-a05d-e46a4ec5a014)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab2/screenshots/4.png)
 
-![image](https://github.com/user-attachments/assets/69accc23-a7f7-4a21-b2d6-39cfa6ce0e85)
+[![image](https://github.com/user-attachments/assets/69accc23-a7f7-4a21-b2d6-39cfa6ce0e85)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab2/screenshots/5.png)
 
 Схема связи:
 
-![image](https://github.com/user-attachments/assets/7fa8aded-4972-4b34-8819-ffba54302822)
+[![image](https://github.com/user-attachments/assets/7fa8aded-4972-4b34-8819-ffba54302822)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab2/screenshots/6.png)
 
 
 ## Вывод: 
