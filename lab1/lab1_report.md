@@ -30,7 +30,7 @@ Date of finished: 27.09.2024
 
 К созданной виртуальной машине было выполнено подключение.
 
-![image](https://github.com/user-attachments/assets/9c5681ef-593f-437b-9a67-930d43c39361)
+[![image](https://github.com/user-attachments/assets/9c5681ef-593f-437b-9a67-930d43c39361)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/2.png)
 
 Были установлены python и ansible.
 
