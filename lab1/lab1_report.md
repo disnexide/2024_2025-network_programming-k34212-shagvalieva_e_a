@@ -34,53 +34,53 @@ Date of finished: 27.09.2024
 
 Были установлены python и ansible.
 
-![image](https://github.com/user-attachments/assets/bb166d53-d049-4c6e-bee7-297c7f6ab0c6)
+[![image](https://github.com/user-attachments/assets/bb166d53-d049-4c6e-bee7-297c7f6ab0c6)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/3.png)
 
 Затем с помощью VirtualBox была создана виртуальная машина RouterOS.
 
-![image](https://github.com/user-attachments/assets/696f53ab-8a22-4172-94eb-7f66d9246d6e)
+[![image](https://github.com/user-attachments/assets/696f53ab-8a22-4172-94eb-7f66d9246d6e)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/4.png)
 
 После настройки виртуального жесткого диска и нужных параметров соединения в настройках, виртуальная машина была запущена, на экран выведен выданный ей ip-адрес.
 
-![image](https://github.com/user-attachments/assets/3fe93a86-fbcc-46c3-9b67-93c0bedd4652)
+[![image](https://github.com/user-attachments/assets/3fe93a86-fbcc-46c3-9b67-93c0bedd4652)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/5.png)
 
 Через программу WinBox было выполнено подключение через выданный ранее ip-адрес.
 
-![image](https://github.com/user-attachments/assets/ca0b326d-6054-4521-be31-9d1176e25e81)
+[![image](https://github.com/user-attachments/assets/ca0b326d-6054-4521-be31-9d1176e25e81)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/6.png)
 
 С помощью интерфейса было настроено покдлючение wireguard - выбирано название и порт, ключи сгенерировалось автоматически.
 
-![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)
+[![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/7.png)
 
 Во вкладке "addresses" был добавлен адрес, который будет присвоен клиенту.
 
-![image](https://github.com/user-attachments/assets/19947a0d-49c4-4e00-81a0-489f5aaa5769)
+[![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/8.png)
 
 Также был настроен peer - в качестве ключа вставлен только что сгенерированный (при первоначальной настройке).
 
-![image](https://github.com/user-attachments/assets/e21e31fa-9ba4-4401-9ebf-93ab40399119)
+[![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/9.png)
 
 После этого на виртуальной машине Ubuntu были сгенерированы ключи.
 
-![image](https://github.com/user-attachments/assets/f6ffea5c-d098-463a-9ed0-35e53601373e)
+[![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/10.png)
 
 Затем приватный ключ интерфейса и публичный ключ пира были вставлены в конфигурационный файл wireguard.
 
-![image](https://github.com/user-attachments/assets/09a8a8eb-c1a4-4bb3-ac24-371524087edd)
+[![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/11.png)
 
 После этих шагов подключение должно заработать. Проверка:
 
 1) Доступ ко внешней сети с ВМ Ubuntu
    
-![image](https://github.com/user-attachments/assets/c835b360-c5a8-4137-b46c-7b30f3ce4d3d)
+[![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/12.png)
 
 2) доступ ко внешней сети RouterOS
    
-![image](https://github.com/user-attachments/assets/e0c901f4-0196-4b99-805a-b0bb6f4f7cba)
+[![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/13.png)
 
 3) Настроенная в работе связь между сервером и клиентом
    
-![image](https://github.com/user-attachments/assets/9e6b8760-9701-4032-9c18-ecc991a1c72f)
+[![image](https://github.com/user-attachments/assets/dac8fbbe-cf79-4c33-9106-64b3700352fd)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/7.png)
 
 
 ## Выводы
