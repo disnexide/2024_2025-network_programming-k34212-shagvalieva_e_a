@@ -26,17 +26,17 @@ Date of finished:
 
 Для выполнения работы поднимем машину "P4 Tutorial 2018-06-01" через VirtualBox.
 
-![Снимок экрана 2024-12-07 225627](https://github.com/user-attachments/assets/c3c7bc50-834d-4692-98e1-a92477c3e89b)
+[![Снимок экрана 2024-12-07 225627](https://github.com/user-attachments/assets/c3c7bc50-834d-4692-98e1-a92477c3e89b)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab4/screenshots/1.png)
 
 ###### Упражнение 1
 
 Поднимем сеть с помощью команды make run и откроем терминалы h1 и h2.
 
-![image](https://github.com/user-attachments/assets/00c7b746-7745-4679-a848-dc6609699120)
+[![image](https://github.com/user-attachments/assets/00c7b746-7745-4679-a848-dc6609699120)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab4/screenshots/2.png)
 
 Чтобы убедиться, что работу действительно придется выполнить, попробуем передать сообщение без вмешательств, назначив h2 получателем. Не получилось -- значит, все-таки придется поработать :(
 
-![image](https://github.com/user-attachments/assets/fb2355ba-d0c3-4681-86b2-0204ce0592be)
+[![image](https://github.com/user-attachments/assets/fb2355ba-d0c3-4681-86b2-0204ce0592be)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab4/screenshots/3.png)
 
 Для этого откроем файл конфигурации и внесем в него некоторые изменения:
 - добавим парсер для ethernet и ipv4
@@ -227,7 +227,7 @@ V1Switch(
 
 Снова проверим, дойдет ли сообщение с одного хоста на другой. Все работает, сообщение доходит.
 
-![image](https://github.com/user-attachments/assets/d6d7a7ca-4fa8-46db-8532-13c36135705e)
+[![image](https://github.com/user-attachments/assets/d6d7a7ca-4fa8-46db-8532-13c36135705e)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab4/screenshots/4.png)
 
 ###### Упражнение 2
 
@@ -451,15 +451,15 @@ MyDeparser()
 
 Сначала (для разнообразия) проверим локальную связность пингом с h1 на h2 и наоборот.
 
-![image](https://github.com/user-attachments/assets/c84f8931-b2ac-480d-93ea-239d2965737a)
+[![image](https://github.com/user-attachments/assets/c84f8931-b2ac-480d-93ea-239d2965737a)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab4/screenshots/5.png)
 
 Пинги проходят, теперь можно попробовать передать "привет".
 
-![image](https://github.com/user-attachments/assets/0d0ea0cc-45e9-4a17-8172-f5a31a8409c7)
+[![image](https://github.com/user-attachments/assets/0d0ea0cc-45e9-4a17-8172-f5a31a8409c7)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab4/screenshots/6.png)
 
 Схема сети выглядит следующим образом:
 
-![image](https://github.com/user-attachments/assets/f836c7ae-92fe-4fdd-aa7d-830e96c3065c)
+[![image](https://github.com/user-attachments/assets/f836c7ae-92fe-4fdd-aa7d-830e96c3065c)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab4/screenshots/7.png)
 
 ## Вывод
 В ходе выполнения лабораторной работы был изучен синтаксис языка программирования P4 и выполнены 2 обучающих задания от Open network foundation для ознакомления на практике с P4.
