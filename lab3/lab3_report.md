@@ -27,23 +27,23 @@ Date of finished:
 
 Для начала на новую виртуальную машину был установлен Netbox.
 
-![image](https://github.com/user-attachments/assets/a3edfaf2-fb4a-43b5-bc88-6527e35fdb76)
+[![image](https://github.com/user-attachments/assets/a3edfaf2-fb4a-43b5-bc88-6527e35fdb76)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab3/screenshots/1.png)
 
 После успешного создания и активации виртуального окружения, а также установки всех зависимостей Netbox, можно продолжить с настройкой и запуском Netbox.
 Создадим БД и пользователя в ней.
 
-![image](https://github.com/user-attachments/assets/b545cae0-8361-465e-93e2-cf4f579dba9f)
+[![image](https://github.com/user-attachments/assets/b545cae0-8361-465e-93e2-cf4f579dba9f)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab3/screenshots/2.png)
 
 
-![image](https://github.com/user-attachments/assets/184cc4b9-6463-4ce3-a2bc-ba4f0dce20b9)
+[![image](https://github.com/user-attachments/assets/184cc4b9-6463-4ce3-a2bc-ba4f0dce20b9)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab3/screenshots/3.png)
 
 И завершим настройку запуском.
 
-![image](https://github.com/user-attachments/assets/16338a1d-3ab5-4da4-9622-3ccd68268712)
+[![image](https://github.com/user-attachments/assets/16338a1d-3ab5-4da4-9622-3ccd68268712)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab3/screenshots/4.png)
 
 Теперь появилась возможность зайти в Netbox. Там добавляем наши устройства.
 
-![image](https://github.com/user-attachments/assets/d6888e03-19c1-43ac-b4cb-5281a8b9ebd6)
+[![image](https://github.com/user-attachments/assets/d6888e03-19c1-43ac-b4cb-5281a8b9ebd6)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab3/screenshots/5.png)
 
 Затем с помощью скрипта перенаправляем сохранение логов и данных в файл.
 
@@ -83,9 +83,9 @@ all:
 
 Запускаем плейбук и тестируем связность устройств:
 
-![image](https://github.com/user-attachments/assets/803015ff-333b-437f-a320-c7c084e6dfdf)
+[![image](https://github.com/user-attachments/assets/803015ff-333b-437f-a320-c7c084e6dfdf)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab3/screenshots/6.png)
 
-![image](https://github.com/user-attachments/assets/e55b5716-9428-4024-ab18-0b15ef044904)
+[![image](https://github.com/user-attachments/assets/e55b5716-9428-4024-ab18-0b15ef044904)](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab3/screenshots/7.png)
 
 ## Вывод
 
