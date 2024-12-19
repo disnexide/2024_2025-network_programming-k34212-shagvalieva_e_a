@@ -26,7 +26,7 @@ Date of finished: 27.09.2024
 
 Для начала работы в Yandex.Cloud была создана виртуальная машина Ubuntu.
 
-![image]([https://github.com/user-attachments/assets/665643d7-de62-4a73-a92f-7fc8fff4bca0](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/1.png))
+![https://github.com/user-attachments/assets/665643d7-de62-4a73-a92f-7fc8fff4bca0](https://github.com/disnexide/2024_2025-network_programming-k34212-shagvalieva_e_a/blob/main/lab1/screenshots/1.png)
 
 К созданной виртуальной машине было выполнено подключение.
 
